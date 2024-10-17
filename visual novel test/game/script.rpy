@@ -2,6 +2,7 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
+define k = Character("KSI")
 
 define l = Character("Lunchly Larry")
 
@@ -41,6 +42,11 @@ label start:
     # should show skibidi choir dialogue
     s "This is also a test to make sure skibidi choir and skibidi toilet sprite and dialogue show up properly without error."
 
+    hide skibidi-toilet
+    show KSI at left
+
+
+    "And I'm KSI and I'm about to get ready to bring you down a rabbithole of brainrot"
     # This ends the game.
 
     return
