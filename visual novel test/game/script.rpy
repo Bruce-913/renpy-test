@@ -51,6 +51,25 @@ label start:
 
 
     k "And I'm KSI and I'm about to get ready to bring you down a rabbithole of brainrot"
+    k "Specifically a little brinrot I created as an experiment"
+
+    menu: 
+        "Now I'll give you two options from here:"
+
+        "Hear my story out of how I ruined this world":
+            jump story_beginning
+
+        "Never hear about my story":
+            jump no_story
+
+label story_beginning:
+
+    scene studio
+
+
+label no_story:
+
+return
     # This ends the game.
 
-    return
+    
