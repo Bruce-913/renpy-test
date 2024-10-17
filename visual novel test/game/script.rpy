@@ -8,6 +8,8 @@ define l = Character("Lunchly Larry")
 
 define s = Character("Skibidi Choir")
 
+image studio  = "studio.png"
+
 image bg room = "bg room.png"
 
 image lunchly larry = "lunchly larry.png"
@@ -67,7 +69,13 @@ label story_beginning:
     scene studio
 
 
+    k "it all started with this studio"
+
+
 label no_story:
+
+    show KSI at left
+    k "This is the end for you"
 
 return
     # This ends the game.
